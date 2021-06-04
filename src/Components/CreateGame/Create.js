@@ -1,4 +1,3 @@
-import firebase from "firebase";
 import db from "../../Config/firebase.config";
 import { useState } from "react";
 
