@@ -9,6 +9,8 @@ const WaitingRoom = () => {
     return (
         <>
         <p>Room: {roomName}</p>
+
+        <button>Everyone is here</button>
         
         </>
     )

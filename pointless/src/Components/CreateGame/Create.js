@@ -1,4 +1,4 @@
-
+import firebase from "firebase";
 
 const Create = () => {
 
@@ -11,11 +11,15 @@ const Create = () => {
       roomName += random
     }
 
+
+
+
     window.location.href = "/waiting-room/" + roomName;
   };
 
   return (
     <>
+      <input type="text" name="name" id="name" placeholder="Enter your name" />
       <button onClick={createRoom}>Create Room</button>
     </>
   );
